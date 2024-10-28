@@ -243,6 +243,8 @@ ocp4_workload_platform_engineering_workshop_gitlab_groups:
     repo:
       - name: template-quarkus-simple
         url: https://github.com/btison/rhdh-template-quarkus-simple.git
+      - name: import-existing-app-template
+        url: https://github.com/redhat-pe-workshop/import-existing-app-template.git
     users:
       - id: pe1
       - id: pe2
@@ -251,8 +253,17 @@ ocp4_workload_platform_engineering_workshop_gitlab_groups:
     users:
       - id: dev1
       - id: dev2
+  - name: global
+    repo:
+      - name: global-techdocs
+        url: https://github.com/redhat-pe-workshop/global-techdocs.git
+    users:
+      - id: pe1
+      - id: pe2
   - name: parasol
     repo:
+      - name: envelope-parasol-catalog
+        url: https://github.com/redhat-pe-workshop/envelope-parasol-catalog.git
       - name: parasol-store
         url: https://github.com/btison/pew-parasol-store.git
       - name: parasol-web
