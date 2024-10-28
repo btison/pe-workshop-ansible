@@ -256,7 +256,7 @@ ocp4_workload_platform_engineering_workshop_gitlab_groups:
   - name: global
     repo:
       - name: global-techdocs
-        url: https://github.com/redhat-pe-workshop/parasol-techdocs
+        url: https://github.com/redhat-pe-workshop/global-techdocs.git
     users:
       - id: pe1
       - id: pe2
